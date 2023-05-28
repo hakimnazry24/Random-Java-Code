@@ -9,6 +9,9 @@ public class Dogs {
         dogs[2].name = "Cutie";
         dogs[3].name = "Paul";
 
+        // public members are inherited
+        // private members are not inherited 
+
         int i = 0;
         while (i < dogs.length){
             dogs[i].bark();
